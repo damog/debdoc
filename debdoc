@@ -1,0 +1,7 @@
+#!/usr/bin/perl
+ 
+use strict;
+use warnings;
+use Debian::Debdoc;
+exit( Debian::Debdoc->run() );
+
